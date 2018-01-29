@@ -1,0 +1,12 @@
+[submodule "schema-tool"]
+	path = schema-tool
+	url = ssh://git@phabricator.dev.clover.com/diffusion/SCMT/schema-tool.git
+[submodule "server"]
+	path = server
+	url = ssh://git@phabricator.dev.clover.com/diffusion/S/server.git
+[submodule "core"]
+	path = core
+	url = ssh://git@phabricator.dev.clover.com/diffusion/CORE/core.git
+[submodule "web"]
+	path = web
+	url = ssh://git@phabricator.dev.clover.com/diffusion/WEB/web.git
