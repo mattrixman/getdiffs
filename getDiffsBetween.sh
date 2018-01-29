@@ -43,7 +43,7 @@ target_branch = {x[2] for x in data if x[0] == '$2'}
 new_diffs = target_branch - prev_branch
 print("data: ", len(data))
 print("prev_branch: ", len(prev_branch))
-print("new_branch: ", len(new_branch))
+print("target_branch: ", len(target_branch))
 print("new_diffs: ", len(new_diffs))
 IPython.embed()
 EOF
